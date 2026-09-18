@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+dados/g1_resultados.csv
+dados/g1_resultados.json
+amostra_referencia.csv
+
+.DS_Store
