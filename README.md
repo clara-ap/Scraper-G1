@@ -77,25 +77,18 @@ g1_scraper_lgpd/
 │   ├── __init__.py
 │   ├── config.py                  # URL, seletores HTML, parâmetros do Playwright
 │   ├── playwright_client.py       # renderização via Chromium headless
-│   ├── parser.py                  # extração dos campos a partir do HTML renderizado
+│   ├── parser.py                  # extração dos campos a partir do HTML
 │   ├── scraper.py                 # organização dos lotes
 │   └── storage.py                 # exportação para CSV/JSON
 ├── scripts/
-│   ├── avaliar_qualidade.py       # calcula as métricas de qualidade (seção 10)
-│   └── gerar_exemplo_ilustrativo.py  # gera o dataset de demonstração (não é dado real do G1)
+│   ├── avaliar_qualidade.py       # calcula as métricas de qualidade
 ├── docs/
 │   ├── avaliacao_qualidade.md     # metodologia e métricas de qualidade
 │   └── proposta_llm.md            # proposta de uso de LLM
 ├── dados/
-│   ├── exemplo_ilustrativo.csv              # dataset de demonstração (ver seção 10)
-│   ├── exemplo_ilustrativo_referencia.csv   # referência manual correspondente
-│   └── amostra_referencia.exemplo.csv       # modelo vazio para você preencher com dados reais
-└── tests/
-    ├── test_parser.py
-    ├── test_playwright_client.py
-    ├── test_scraper.py
-    ├── test_storage.py
-    └── test_avaliar_qualidade.py
+│   ├── g1_resultados.json
+│   ├── g1_resultados.csv  
+│   └── amostra_referencia.exemplo.csv     
 ```
 
 ## 4. Instalação
